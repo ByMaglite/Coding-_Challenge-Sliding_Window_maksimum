@@ -17,27 +17,25 @@ btnSolution.addEventListener("click", () => {
         let newArr = arr.slice(i, i + k)
         maxArr.push(Math.max(...newArr))
     }
-
     solitionDiv.style.display = "block";
-  
 })
 
 jsBtn.addEventListener("click", () => {
     var contentJs = document.createElement("img");
-    contentJs.src ="JS_solition.png"
-    solitionDiv.appendChild(contentJs)       
+    contentJs.src = "JS_solition.png";
+    solitionDiv.appendChild(contentJs);
 });
 
 pythonBtn.addEventListener("click", () => {
     var contentPython = document.createElement("img");
-    contentPython.src ="Python_solition.png";        
-    solitionDiv.appendChild(contentPython);     
+    contentPython.src = "Python_solition.png";
+    solitionDiv.appendChild(contentPython);
 });
 
-reset.addEventListener("click", ()=>{
-    window.location.reload();           
+reset.addEventListener("click", () => {
+    window.location.reload();
 })
-   
+
 
 
 
