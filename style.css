@@ -1,0 +1,39 @@
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    height: 80vh;
+    background-color: antiquewhite;
+    }
+h1,p{
+    text-align: center;
+}
+button{
+    background-color: rgb(19, 158, 19);
+    color: honeydew;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#solition{
+    text-align: center;
+    align-items: center;
+    display: none;
+    background-color: rgb(233, 210, 221);
+    width: 100%;
+    border: none;
+}
+.btn-grp{
+    background-color: rgb(226, 116, 43);
+    font-size: 1rem;
+    width: 30%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+img{
+    width: 50%;
+    height:50vh;
+}
