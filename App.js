@@ -33,8 +33,7 @@ btnSolution.addEventListener("click", () => {
     });
 
     reset.addEventListener("click", ()=>{
-        var e = solitionDiv.lastChild;
-        solitionDiv.removeChild(e);      
+        window.location.reload();           
     })
 })
 
